@@ -11,8 +11,15 @@
 		ACF543831A884BDA00C9835C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF543821A884BDA00C9835C /* ViewController.swift */; };
 		ACF543861A884BDA00C9835C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF543841A884BDA00C9835C /* Main.storyboard */; };
 		ACF543881A884BDA00C9835C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF543871A884BDA00C9835C /* Images.xcassets */; };
-		ACF5438B1A884BDA00C9835C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF543891A884BDA00C9835C /* LaunchScreen.xib */; };
 		ACF543971A884BDA00C9835C /* homework_1_dropbox2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF543961A884BDA00C9835C /* homework_1_dropbox2Tests.swift */; };
+		ACF543A11A88670000C9835C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF543A01A88670000C9835C /* WelcomeViewController.swift */; };
+		ACF543A31A886A8300C9835C /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF543A21A886A8300C9835C /* CreateAccountRootViewController.swift */; };
+		ACF543A51A886AE500C9835C /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF543A41A886AE500C9835C /* SignInRootViewController.swift */; };
+		ACF543A71A8872E500C9835C /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF543A61A8872E500C9835C /* CreateAccountViewController.swift */; };
+		ACF543A91A88731200C9835C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF543A81A88731200C9835C /* SignInViewController.swift */; };
+		ACF543AB1A887BAB00C9835C /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF543AA1A887BAB00C9835C /* TermsViewController.swift */; };
+		ACF543AD1A88829D00C9835C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF543AC1A88829D00C9835C /* SettingsViewController.swift */; };
+		ACF543AF1A88878600C9835C /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF543AE1A88878600C9835C /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +39,17 @@
 		ACF543821A884BDA00C9835C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACF543851A884BDA00C9835C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACF543871A884BDA00C9835C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		ACF5438A1A884BDA00C9835C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ACF543901A884BDA00C9835C /* homework-1-dropbox2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "homework-1-dropbox2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF543951A884BDA00C9835C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACF543961A884BDA00C9835C /* homework_1_dropbox2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework_1_dropbox2Tests.swift; sourceTree = "<group>"; };
+		ACF543A01A88670000C9835C /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		ACF543A21A886A8300C9835C /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		ACF543A41A886AE500C9835C /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		ACF543A61A8872E500C9835C /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		ACF543A81A88731200C9835C /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		ACF543AA1A887BAB00C9835C /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		ACF543AC1A88829D00C9835C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		ACF543AE1A88878600C9835C /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +95,15 @@
 				ACF543821A884BDA00C9835C /* ViewController.swift */,
 				ACF543841A884BDA00C9835C /* Main.storyboard */,
 				ACF543871A884BDA00C9835C /* Images.xcassets */,
-				ACF543891A884BDA00C9835C /* LaunchScreen.xib */,
 				ACF5437E1A884BDA00C9835C /* Supporting Files */,
+				ACF543A01A88670000C9835C /* WelcomeViewController.swift */,
+				ACF543A21A886A8300C9835C /* CreateAccountRootViewController.swift */,
+				ACF543A41A886AE500C9835C /* SignInRootViewController.swift */,
+				ACF543A61A8872E500C9835C /* CreateAccountViewController.swift */,
+				ACF543A81A88731200C9835C /* SignInViewController.swift */,
+				ACF543AA1A887BAB00C9835C /* TermsViewController.swift */,
+				ACF543AC1A88829D00C9835C /* SettingsViewController.swift */,
+				ACF543AE1A88878600C9835C /* PhotosViewController.swift */,
 			);
 			path = "homework-1-dropbox2";
 			sourceTree = "<group>";
@@ -193,7 +214,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF543861A884BDA00C9835C /* Main.storyboard in Resources */,
-				ACF5438B1A884BDA00C9835C /* LaunchScreen.xib in Resources */,
 				ACF543881A884BDA00C9835C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +232,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF543A91A88731200C9835C /* SignInViewController.swift in Sources */,
+				ACF543A71A8872E500C9835C /* CreateAccountViewController.swift in Sources */,
+				ACF543A51A886AE500C9835C /* SignInRootViewController.swift in Sources */,
+				ACF543A31A886A8300C9835C /* CreateAccountRootViewController.swift in Sources */,
+				ACF543A11A88670000C9835C /* WelcomeViewController.swift in Sources */,
 				ACF543831A884BDA00C9835C /* ViewController.swift in Sources */,
+				ACF543AB1A887BAB00C9835C /* TermsViewController.swift in Sources */,
 				ACF543811A884BDA00C9835C /* AppDelegate.swift in Sources */,
+				ACF543AD1A88829D00C9835C /* SettingsViewController.swift in Sources */,
+				ACF543AF1A88878600C9835C /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,14 +270,6 @@
 				ACF543851A884BDA00C9835C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ACF543891A884BDA00C9835C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACF5438A1A884BDA00C9835C /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "homework-1-dropbox2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "homework-1-dropbox2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
